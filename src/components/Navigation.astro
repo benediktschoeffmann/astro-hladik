@@ -3,6 +3,13 @@ import ResponsiveToggle from './ResponsiveToggle.astro'
 import { DarkMode } from 'accessible-astro-components'
 import { Image } from "astro:assets"
 import logo from "../assets/img/logo.svg"
+
+let links = [
+    {text: 'Home', url: '/'},
+    {text: 'Blog', url: '/blog'},
+    {text: 'Service', url: '/service'},
+    {text: 'Contact', url: '/contact'}
+];
 ---
 
 <div id="main-navigation" class="is-desktop py-8">
