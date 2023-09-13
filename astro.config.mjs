@@ -4,6 +4,7 @@ import tailwind from '@astrojs/tailwind';
 import compress from 'astro-compress';
 
 import netlify from "@astrojs/netlify/functions";
+import NetlifyCMS from 'astro-netlify-cms';
 
 // https://astro.build/config
 export default defineConfig({
@@ -59,7 +60,7 @@ export default defineConfig({
           },
         ],
       },
-      previewStyles: ['/src/styles/blog.css'],
+      // previewStyles: ['../../styles/blog.css'],
     }),
   ],
   output: "server",
