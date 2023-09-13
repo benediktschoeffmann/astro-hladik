@@ -2,16 +2,21 @@
 import CallToAction from './CallToAction.astro'
 
 const currentYear = new Date().getFullYear()
+const headline = 'Mail me'
+const url = 'https://www.google.at'
+const text = 'I will help u'
 ---
 
 <footer>
-  <CallToAction />
   <section class="py-8">
     <div class="container">
-      <p>
-        &copy; {currentYear} - Starter Theme for <a href="https://astro.build/">Astro</a>. Made with ❤️ by <a
-          href="https://github.com/markteekman">Mark Teekman</a
-        >.
+      <CallToAction 
+        headline={headline}
+        url={url}
+        text={text}
+      />
+      <p class="mx-auto">
+        &copy; {currentYear} - <a href="mailto:galahad.instruments@gmail.com">Galahad Design</a>
       </p>
     </div>
   </section>
