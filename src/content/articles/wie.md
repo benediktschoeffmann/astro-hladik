@@ -4,7 +4,7 @@ publishDate: 2023-10-01
 leadText: Definition der Kunsttherapie - Begriffsfindung. 
 ---
 
-# Wie?
+## Wie?
 
 Mit deinem freien Ausdruck kann ein Kunstwerk spontan&wertfrei entstehen (Unbewusstes Wahrnehmen mit Hilfe der bildenden und darstellenden Künsten.), dass durch die gemeinsame Betrachtung und Analyse zu neuen Lösungen in deinem Leben führen kann.
 

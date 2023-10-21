@@ -4,7 +4,7 @@ publishDate: 2023-10-01
 leadText: Definition der Kunsttherapie - Begriffsfindung. 
 ---
 
-# Offenes Atelier
+## Offenes Atelier
 
 _Wo & Wie kann ich mich entspannt in einer Gruppe künstlerisch ausdrücken?_
 

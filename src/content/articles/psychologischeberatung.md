@@ -4,7 +4,7 @@ publishDate: 2023-10-01
 leadText: Definition der Kunsttherapie - Begriffsfindung. 
 ---
 
-# Psychologische Beratung und Coaching
+## Psychologische Beratung und Coaching
 
 > In einer Krise, bei ~~Zwischen~~ einem Job-wechsel, vor & nach einer Trennung, ????
 

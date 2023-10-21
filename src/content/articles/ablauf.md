@@ -3,7 +3,7 @@ title: Ablauf
 publishDate: 2023-10-01
 leadText: Ablauf einer Beratung 
 ---
-# Ablauf
+## Ablauf
 
 Im ersten Schritt lernen wir uns kennen. Ein kurzes Treffen (10-30min) um herauszufinden, ob die Chemie für uns passt. Dieser Erstkontakt ist Gratis.
 

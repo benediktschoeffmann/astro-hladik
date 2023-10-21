@@ -16,15 +16,7 @@ const {
 
 <html lang="en" dir="ltr">
   <head>
-    <SiteMeta
-      title={title}
-      description={description.substring(0, 100)}
-      url={Astro.site
-        ? `${Astro.site}/${title.toLowerCase().replaceAll(' ', '-')}`
-        : `https://accessible-astro.dev/${title.toLowerCase().replaceAll(' ', '-')}`}
-      image={image}
-      author={author}
-  />
+    <SiteMeta />
   </head>
   <body>
     <Header />

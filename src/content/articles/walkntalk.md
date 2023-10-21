@@ -4,7 +4,7 @@ publishDate: 2023-10-01
 leadText: Definition der Kunsttherapie - Begriffsfindung. 
 ---
 
-# Walk & Talk
+## Walk & Talk
 
 .. mit GEHsprächen in Schönbrunn
   

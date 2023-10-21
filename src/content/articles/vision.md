@@ -4,7 +4,7 @@ publishDate: 2023-10-01
 leadText: Definition der Kunsttherapie - Begriffsfindung. 
 ---
 
-# Meine Vision
+## Meine Vision
 
 Ich möchte unsere Welt schöner machen und sie ein bisschen besser hinterlassen, als ich sie vorgefunden habe.
 

@@ -4,7 +4,7 @@ publishDate: 2023-10-01
 leadText: Definition der Kunsttherapie - Begriffsfindung. 
 ---
 
-# Mobile Beratung, Coaching und Kunsttherapie in Wien
+## Mobile Beratung, Coaching und Kunsttherapie in Wien
 
 > “Mit der kreativen Kraft, die Veränderung möglich macht.”
 
