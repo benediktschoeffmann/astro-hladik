@@ -2,6 +2,8 @@
 title: Wer bin ich
 publishDate: 2023-10-01
 leadText: Definition der Kunsttherapie - Begriffsfindung. 
+tags:
+    - me
 ---
 
 ## Wer bin ich?

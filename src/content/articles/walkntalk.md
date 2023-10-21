@@ -1,13 +1,13 @@
 ---
 title: Walk & Talk
 publishDate: 2023-10-01
-leadText: Definition der Kunsttherapie - Begriffsfindung. 
+leadText: .. mit GEHsprächen in Schönbrunn.. mit GEHsprächen in Schönbrunn
+tags:
+    - services
 ---
 
 ## Walk & Talk
 
-.. mit GEHsprächen in Schönbrunn
-  
  _Wie bringe ich mehr Schwung in mein Leben?_
 
 Durch die Bewegung an der frischen Luft kommen unsere Kräfte in Schwung.

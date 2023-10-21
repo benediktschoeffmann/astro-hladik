@@ -2,6 +2,9 @@
 title: Mobile Beratung, Coaching und Kunsttherapie in Wien
 publishDate: 2023-10-01
 leadText: Definition der Kunsttherapie - Begriffsfindung. 
+tags:
+    - info
+    - services
 ---
 
 ## Mobile Beratung, Coaching und Kunsttherapie in Wien

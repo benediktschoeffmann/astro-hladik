@@ -1,7 +1,9 @@
 ---
 title: Psychologische Beratung und Coaching
 publishDate: 2023-10-01
-leadText: Definition der Kunsttherapie - Begriffsfindung. 
+leadText: In einer Krise, bei ~~Zwischen~~ einem Job-wechsel, vor & nach einer Trennung
+tags:
+    - services
 ---
 
 ## Psychologische Beratung und Coaching

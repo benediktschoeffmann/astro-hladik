@@ -2,6 +2,8 @@
 title: Meine Vision
 publishDate: 2023-10-01
 leadText: Definition der Kunsttherapie - Begriffsfindung. 
+tags:
+    - me
 ---
 
 ## Meine Vision

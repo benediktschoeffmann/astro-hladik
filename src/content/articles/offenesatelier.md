@@ -1,7 +1,9 @@
 ---
 title: Offenes Atelier
 publishDate: 2023-10-01
-leadText: Definition der Kunsttherapie - Begriffsfindung. 
+leadText: Wo & Wie kann ich mich entspannt in einer Gruppe künstlerisch ausdrücken?
+tags:
+    - services
 ---
 
 ## Offenes Atelier
