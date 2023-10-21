@@ -58,6 +58,30 @@ export default defineConfig({
               },
             ],
           },
+          { 
+            name: 'articles',
+            label: 'Articles',
+            label_singular: 'Article',
+            folder: 'src/pages/articles',
+            create: true,
+            delete: true,
+            fields: [
+              { name: 'title', widget: 'string', label: 'Title' },
+              {
+                name: 'publishDate',
+                widget: 'datetime',
+                format: 'DD MMM YYYY',
+                date_format: 'DD MMM YYYY',
+                time_format: false,
+                label: 'Publish Date',
+              },
+              { name: 'teaserImage', widget: 'image', label: 'Teaser Image', required: false },              
+              { name: 'leadText', widget: 'string', label: 'Lead Text', required: false },
+              { name: 'bodyText', widget: 'markdown', label: 'Body Text' }
+            ],
+          },
+
+          
         ],
       },
       // previewStyles: ['../../styles/blog.css'],
