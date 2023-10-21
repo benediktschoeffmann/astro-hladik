@@ -1,7 +1,8 @@
 ---
 title: Ablauf
 publishDate: 01 Oct 2023
-leadText: Ablauf einer Beratung 
+leadText: Ablauf einer Beratung
+layout: ./../../layouts/ArticleLayout.astro
 ---
 # Ablauf
 
