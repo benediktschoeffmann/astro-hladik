@@ -9,7 +9,8 @@ import NetlifyCMS from 'astro-netlify-cms';
 // https://astro.build/config
 export default defineConfig({
   compressHTML: true,
-  integrations: [mdx(), 
+  integrations: [
+    mdx(), 
     tailwind({
       applyBaseStyles: false
     }), 

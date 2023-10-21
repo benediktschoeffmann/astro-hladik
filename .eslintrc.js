@@ -4,7 +4,10 @@ module.exports = {
     es2022: true,
     browser: true,
   },
-  extends: ['eslint:recommended', 'plugin:astro/recommended', 'plugin:astro/jsx-a11y-strict'],
+  extends: [
+    'eslint:recommended', 
+    'plugin:astro/recommended', 
+    'plugin:astro/jsx-a11y-strict'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
@@ -14,7 +17,10 @@ module.exports = {
     {
       files: ['*.js'],
       rules: {
-        'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
+        'no-mixed-spaces-and-tabs': [
+          'error', 
+          'smart-tabs'
+        ],
       },
     },
     {
