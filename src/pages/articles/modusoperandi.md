@@ -1,3 +1,8 @@
+---
+title: Modus Operandi
+publishDate: 01 Oct 2023
+leadText: Kosten
+---
 # Kosten
 
 * pro angefanger Stunde:

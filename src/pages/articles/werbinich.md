@@ -1,3 +1,9 @@
+---
+title: Wer bin ich
+publishDate: 01 Oct 2023
+leadText: Definition der Kunsttherapie - Begriffsfindung. 
+---
+
 # Wer bin ich?
 
 Carina-Alexandra Hladik\

@@ -1,6 +1,12 @@
+---
+title: Kunst Therapie
+publishDate: 01 Oct 2023
+leadText: Definition der Kunsttherapie - Begriffsfindung. 
+---
+
 # Kunst Therapie
 
-Kunst Therapie  st keine Psychotherapie und wird (noch) nicht von der Krankenkasse übernommen. ~~Ich gehe  dem Ansatz der Salutogenese nach A. Antonovsky nach.~~ Im Zentrum steht der eigene Ausdruck (bildend/darstellend, verbal/nonverbal, emotional/rational) und die Kraft der Kreativität mit Blick auf die eigenen Ressourcen und Stärken.
+Kunst Therapie  ist keine Psychotherapie und wird (noch) nicht von der Krankenkasse übernommen. ~~Ich gehe  dem Ansatz der Salutogenese nach A. Antonovsky nach.~~ Im Zentrum steht der eigene Ausdruck (bildend/darstellend, verbal/nonverbal, emotional/rational) und die Kraft der Kreativität mit Blick auf die eigenen Ressourcen und Stärken.
 
 Durch die Beziehung (Ort und Zeit), die Methoden (Gespräch) und die Werkzeuge (Medien) der Kunsttherapeutin entstehen neue Perspektiven für den Klienten das Leben zu gestalten.
 

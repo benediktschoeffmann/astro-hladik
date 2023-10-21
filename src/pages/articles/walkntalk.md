@@ -1,4 +1,10 @@
-# Walk&Talk
+---
+title: Walk & Talk
+publishDate: 01 Oct 2023
+leadText: Definition der Kunsttherapie - Begriffsfindung. 
+---
+
+# Walk & Talk
 
 .. mit GEHsprächen in Schönbrunn
   

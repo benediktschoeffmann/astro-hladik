@@ -1,4 +1,10 @@
-# Mobile Beratung, Coaching und Kunsttherapie in WIEN
+---
+title: Mobile Beratung, Coaching und Kunsttherapie in Wien
+publishDate: 01 Oct 2023
+leadText: Definition der Kunsttherapie - Begriffsfindung. 
+---
+
+# Mobile Beratung, Coaching und Kunsttherapie in Wien
 
 > “Mit der kreativen Kraft, die Veränderung möglich macht.”
 

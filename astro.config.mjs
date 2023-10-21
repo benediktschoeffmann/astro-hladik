@@ -26,6 +26,7 @@ export default defineConfig({
         public_folder: '/assets/blog',
         // Configure the content collections
         collections: [
+
           {
             name: 'posts',
             label: 'Blog Posts',
@@ -58,6 +59,7 @@ export default defineConfig({
               },
             ],
           },
+
           { 
             name: 'articles',
             label: 'Articles',
@@ -77,7 +79,7 @@ export default defineConfig({
               },
               { name: 'teaserImage', widget: 'image', label: 'Teaser Image', required: false },              
               { name: 'leadText', widget: 'string', label: 'Lead Text', required: false },
-              { name: 'bodyText', widget: 'markdown', label: 'Body Text' }
+              { name: 'body', widget: 'markdown', label: 'Body Text' }
             ],
           },
 
