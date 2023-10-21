@@ -1,0 +1,18 @@
+---
+import ArticleBody from './ArticleBody.astro'
+
+const { articles } = Astro.props
+
+---
+
+<section class="articlePreviewList">
+    {articles.map((article) => (
+        <ArticleBody article={article}/>
+    ))}
+</section>    
+
+<style>
+    .articlePreviewList {
+        @apply flex flex-col gap-12
+    }
+</style>
