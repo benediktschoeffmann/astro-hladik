@@ -2,6 +2,7 @@
 title: Modus Operandi
 publishDate: 2023-10-01
 leadText: Kosten
+icon: mdi:book-open-page-variant
 tags:
   - info
 ---

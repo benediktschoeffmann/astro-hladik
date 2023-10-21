@@ -2,6 +2,7 @@
 title: Offenes Atelier
 publishDate: 2023-10-01
 leadText: Wo & Wie kann ich mich entspannt in einer Gruppe künstlerisch ausdrücken?
+icon: mdi:language-markdown
 tags:
     - services
 ---
