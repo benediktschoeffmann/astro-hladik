@@ -1,22 +1,28 @@
 ---
-const { title, description, url, image, author } = Astro.props
-
-let subtitle = 'Accessible Astro Starter'
+import { META } from '../consts.ts'
 ---
 
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
 <!-- general meta -->
-<meta name="title" content={`${title} - ${subtitle}`} />
-<meta name="description" content={description} />
-<meta name="author" content={author} />
+<meta name="title" content={META.title} />
+<meta name="description" content={META.description} />
+<meta name="author" content={META.autor} />
+
+<!-- favicon  -->
+<link rel="icon" href="/assets/img/favicon-96.png" type="image/png">  
 
 <!-- open graph -->
-<meta property="og:title" content={`${title} - ${subtitle}`} />
-<meta property="og:description" content={description} />
+<meta property="og:title" content={`${META.title}`} />
+<meta property="og:description" content={META.description} />
 <meta property="og:type" content="website" />
-<meta property="og:url" content={url} />
-<meta property="og:image" content={Astro.site ? `${Astro.site}${image}` : image} />
+<meta property="og:url" content={META.url} />
+<!-- <meta property="og:image" content={Astro.site ? `${Astro.site}${image}` : image} /> -->
+<meta property="og:image" content={META.image} />
 
 <!-- twitter card -->
 
 <!-- page title -->
-<title>{title} - {subtitle}</title>
+<title>{META.title} - {META.description}</title>
