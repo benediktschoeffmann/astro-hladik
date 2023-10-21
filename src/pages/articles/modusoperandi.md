@@ -3,7 +3,7 @@ title: Modus Operandi
 publishDate: 01 Oct 2023
 leadText: Kosten
 ---
-# Kosten
+## Kosten
 
 * pro angefanger Stunde:
   + vormittags: 150,-

@@ -4,7 +4,7 @@ publishDate: 01 Oct 2023
 leadText: Definition der Kunsttherapie - Begriffsfindung. 
 ---
 
-# Wer bin ich?
+## Wer bin ich?
 
 Carina-Alexandra Hladik\
 Geboren in Gmunden 31.08.1981\
