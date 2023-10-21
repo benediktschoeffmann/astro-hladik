@@ -10,11 +10,10 @@ const articleCollection = defineCollection({
         leadText: z.string(),
         icon: z.string().optional(),
         teaserImage: z.string().optional(),
-        tags: z.array()[z.string(), z.optional()]
+        tags: z.array(z.string().optional())
     })
- });
+});
 
 export const collections = {
-    // 'blog': blogCollection,
     'articles': articleCollection
-  };
+};
