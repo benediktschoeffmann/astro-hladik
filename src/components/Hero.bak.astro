@@ -1,0 +1,47 @@
+---
+import { Icon } from 'astro-icon'
+import ContentMedia from './ContentMedia.astro';
+
+// const { src = 'astronaut-hero-img.webp' } = Astro.props
+const { src = 'assets/img/hero.jpg' } = Astro.props
+
+---
+
+<section class="hero my-24">
+  <div class="container">
+    <div class="grid grid-cols-1 items-center gap-24 lg:grid-cols-2">
+      <div class="flex flex-col items-center gap-8 md:items-start">
+        <h1 class="text-center text-6xl md:text-left lg:text-8xl">
+          <slot>
+            <p style="line-height: 1.2;">
+              Frischer Wind in guten Händen
+            </p>
+          </slot>
+        </h1>
+      </div>
+      <div class="flex flex-col items-center justify-items-end gap-8 md:items-start hero">
+        <img class="lg:block" src={src} alt="" decoding="async" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<style lang="scss">
+  .text-gradient {
+    background: linear-gradient(315deg, var(--primary-200) 25%, var(--secondary-500));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hero {
+    align-items: flex-end;
+  }
+
+  :global(.darkmode .text-gradient) {
+    background: linear-gradient(315deg, var(--primary-200) 25%, var(--secondary-400));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+</style>
