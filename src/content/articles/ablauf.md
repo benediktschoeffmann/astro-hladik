@@ -1,6 +1,6 @@
 ---
 title: Ablauf
-publishDate: 01 Oct 2023
+publishDate: 2023-10-01
 leadText: Ablauf einer Beratung 
 ---
 # Ablauf

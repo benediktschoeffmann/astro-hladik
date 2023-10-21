@@ -1,7 +1,6 @@
-
 ---
 title: Was bin ich
-publishDate: 01 Oct 2023
+publishDate: 2023-10-01
 leadText: Definition der Kunsttherapie - Begriffsfindung. 
 ---
 # Was bin ich?

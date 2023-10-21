@@ -1,6 +1,6 @@
 ---
 title: Modus Operandi
-publishDate: 01 Oct 2023
+publishDate: 2023-10-01
 leadText: Kosten
 ---
 # Kosten
