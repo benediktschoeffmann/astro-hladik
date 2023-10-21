@@ -80,6 +80,14 @@ export default defineConfig({
               },
               { name: 'teaserImage', widget: 'image', label: 'Teaser Image', required: false },              
               { name: 'leadText', widget: 'string', label: 'Lead Text', required: false },
+              // { 
+              //   label: 'Tags', 
+              //   name: 'tags', 
+              //   widget: 'list', 
+              //   fields:
+              //     - {label: NamedNodeMap, name: name, widget: string},
+              //   required: false
+              // },
               { name: 'body', widget: 'markdown', label: 'Body Text' }
             ],
           },
