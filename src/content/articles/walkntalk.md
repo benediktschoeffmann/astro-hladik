@@ -3,8 +3,7 @@ title: Walk & Talk
 publishDate: 2023-10-01
 leadText: .. mit GEHsprächen in Schönbrunn.. mit GEHsprächen in Schönbrunn
 icon: mdi:bow-arrow
-tags:
-    - services
+tags: ['services']
 ---
 
 ## Walk & Talk

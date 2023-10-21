@@ -3,8 +3,7 @@ title: Wie
 publishDate: 2023-10-01
 leadText: Definition der Kunsttherapie - Begriffsfindung. 
 icon: mdi:chess-pawn
-tags:
-    - info
+tags: ['info']
 ---
 
 ## Wie?

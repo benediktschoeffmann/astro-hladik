@@ -3,8 +3,7 @@ title: Psychologische Beratung und Coaching
 publishDate: 2023-10-01
 leadText: In einer Krise, bei ~~Zwischen~~ einem Job-wechsel, vor & nach einer Trennung
 icon: mdi:cog
-tags:
-    - services
+tags: ['services']
 ---
 
 ## Psychologische Beratung und Coaching
