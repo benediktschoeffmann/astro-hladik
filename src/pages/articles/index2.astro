@@ -1,0 +1,13 @@
+---
+import ArticleLayout from '../../layouts/ArticleLayout.astro' 
+import ArticleList from '../../components/ArticleList.astro'
+
+const articles = await Astro.glob('./*.md');
+
+---
+
+<ArticleLayout title="Frischer Wind in neuen Händen">
+
+    <ArticleList list={articles} />
+
+</ArticleLayout>

@@ -4,23 +4,26 @@ import '../assets/scss/globals.scss'
 import SiteMeta from '../components/SiteMeta.astro'
 import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
+import ArticleBody from '../components/ArticleBody.astro'
+import ArticleList from '../components/ArticleList.astro'
 
-// const {
-//   title = 'Astro',
-//   description = 'A starter project with accessibility features using Astro static site builder. Contains accessible landmarks, skip links, a dark mode color scheme, better focus outline and keyboard menu navigation.',
-//   url,
-//   image = '/social-preview-image.png',
-//   author = 'Mark Teekman',
-// } = Astro.props
+type Props = CollectionEntry<'articles'>['data'];
+
+const { article} = Astro.props;
+
+const articles = await Astro.glob('../content/articles/*.md');
+
 ---
 
 <html lang="en" dir="ltr">
   <head>
-    <SiteMeta />
+    <SiteMeta title={article?.data.title}/>
   </head>
   <body>
     <Header />
     <main id="main-content">
+      <ArticleBody article={article} />
+      <ArticleList articles={articles}
       <slot />
     </main>
     <Footer />

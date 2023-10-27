@@ -1,0 +1,21 @@
+---
+import { getCollection } from "astro:content";
+import DefaultLayout from './../../layouts/DefaultLayout.astro'
+import Feature from './../../components/Feature.astro'
+import ContentMedia from './../../components/ContentMedia.astro'
+
+const meArticles = await getCollection('articles', ({ data }) => {
+    return (data.tags.includes('me')) && (data.publishDate < new Date());
+});
+
+console.log(meArticles);
+---
+<DefaultLayout>
+        {meArticles.map(
+            article => (
+                <Feature icon={article.data.icon} title={article.data.title}>
+                    {article.data.leadText}
+                </Feature>
+            )
+        )}
+</DefaultLayout>
