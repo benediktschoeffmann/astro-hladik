@@ -4,10 +4,7 @@ module.exports = {
     es2022: true,
     browser: true,
   },
-  extends: [
-    'eslint:recommended', 
-    'plugin:astro/recommended', 
-    'plugin:astro/jsx-a11y-strict'],
+  extends: ['eslint:recommended', 'plugin:astro/recommended', 'plugin:astro/jsx-a11y-strict', 'plugin:storybook/recommended'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
