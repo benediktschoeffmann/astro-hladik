@@ -26,6 +26,12 @@ yarn-error.log*
 # package lock
 package-lock.json
 
+.netlify/
+
+.turbo
+
+.astro
+
 
 .netlify/**/*
 .astro/
@@ -35,3 +41,4 @@ package-lock.json
 
 # yarn 
 .yarn
+
