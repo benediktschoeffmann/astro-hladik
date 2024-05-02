@@ -32,3 +32,6 @@ package-lock.json
 
 # turbo 
 .turbo
+
+# yarn 
+.yarn
