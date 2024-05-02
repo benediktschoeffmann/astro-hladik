@@ -8,8 +8,8 @@ tags: ['info']
 ## Kosten
 
 * pro angefanger Stunde:
-  + vormittags: 150,-
-  + nachmittags/abends: 180,-
+  * vormittags: 150,-
+  * nachmittags/abends: 180,-
 * Fahrtzeit in eine Richtung
 * Sozialtarife möglich
 
