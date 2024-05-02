@@ -1,5 +1,5 @@
 ---
-name: "prepare-release"
+name: "pre-release"
 
 on:
   push:
@@ -12,9 +12,10 @@ jobs:
     runs-on: "ubuntu-latest"
 
     steps:
-      - uses: "marvinpinto/action-automatic-releases@latest"
+      - name: "Steps"
+        uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
+          # automatic_release_tag: "latest"
           prerelease: true
           title: "Next Release"
