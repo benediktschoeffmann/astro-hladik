@@ -31,3 +31,14 @@ package-lock.json
 .turbo
 
 .astro
+
+
+.netlify/**/*
+.astro/
+
+# turbo 
+.turbo
+
+# yarn 
+.yarn
+

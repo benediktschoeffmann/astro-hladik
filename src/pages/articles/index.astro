@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+
+import ArticleLayout from '../../layouts/ArticleLayout.astro' 
+import ArticleList from '../../components/ArticleList.astro'
+
+const articles = (await getCollection('articles')).sort(
+	(a, b) => a.data.publishDate.valueOf() > b.data.publishDate.valueOf()
+);
+
+---
+
+<ArticleLayout title="Frischer Wind in neuen Händen">
+    <soan>index</span>
+    <ArticleList list={articles} />
+
+</ArticleLayout>

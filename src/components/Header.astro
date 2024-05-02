@@ -1,13 +1,26 @@
 ---
-import Navigation from '../components/Navigation.astro'
+import Navigation from './Navigation.astro'
 import { SkipLinks } from 'accessible-astro-components'
 import { Icon } from 'astro-icon'
+
+import { navigationLinks } from './../nav';
+
 ---
 
 <header>
   <SkipLinks />
   <Navigation>
-    <li class="menu-item">
+    {navigationLinks.map((navLink) => (
+        <li class="menu-item">
+          <a href={navLink.url}>
+            {navLink.text}
+          </a>
+        </li>
+      )
+    )}
+
+    
+    <!-- <li class="menu-item">
       <a href="/">Home</a>
     </li>
     <li class="menu-item">
@@ -26,15 +39,17 @@ import { Icon } from 'astro-icon'
           <a href="/accessible-components">Accessible Components</a>
         </li>
       </ul>
-    </li>
-    <li class="menu-item">
+    </li> -->
+
+
+    <!-- <li class="menu-item">
       <a href="https://accessible-astro.dev" title="external link" rel="external noopener noreferrer">External Link</a>
-    </li>
-    <li class="menu-item type-icon">
+    </li> -->
+    <!-- <li class="menu-item type-icon">
       <a href="https://github.com/markteekman/accessible-astro-starter" title="Go to the GitHub page">
         <Icon pack="ion" name="logo-github" />
       </a>
-    </li>
+    </li> -->
   </Navigation>
 </header>
 

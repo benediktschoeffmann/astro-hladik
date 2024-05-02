@@ -6,7 +6,7 @@ author: Ben
 description: Dallas (/ˈdæləs/) is a city in Texas and the most populous in the
   Dallas–Fort Worth metroplex, the fourth-largest metropolitan area in the
   United States at 7.5 million people.
-layout: ../../layouts/BlogPost.astro
+layout: ../../layouts/DefaultLayout.astro
 ---
 ![](/assets/blog/1280px-globe_life_park_final_game-_arlington-_texas_-48849586952-.jpg)
 
