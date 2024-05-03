@@ -1,5 +1,6 @@
 ---
 import { META } from '../consts'
+import { AstroFont } from 'astro-font'
 ---
 
 <meta charset="utf-8" />
@@ -12,7 +13,7 @@ import { META } from '../consts'
 <meta name="author" content={META.author} />
 
 <!-- favicon  -->
-<link rel="icon" href="/assets/img/favicon-96.png" type="image/png">  
+<link rel="icon" href="/assets/img/favicon-96.png" type="image/png" />
 
 <!-- open graph -->
 <meta property="og:title" content={`${META.title}`} />
@@ -26,3 +27,27 @@ import { META } from '../consts'
 
 <!-- page title -->
 <title>{META.title} - {META.description}</title>
+
+<AstroFont
+  config={[
+    {
+      name: 'Afacad',
+      src: [
+        {
+          style: 'normal',
+          weight: '400',
+          path: './public/fonts/RedditSansCondensed-Regular.ttf',
+        },
+        {
+          style: 'medium',
+          weight: '500',
+          path: './public/fonts/RedditSansCondensed-medium.ttf',
+        },
+      ],
+      preload: true,
+      display: 'swap',
+      selector: 'body',
+      fallback: 'sans-serif',
+    },
+  ]}
+/>
