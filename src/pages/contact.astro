@@ -1,0 +1,27 @@
+---
+import { Notification } from 'accessible-astro-components'
+import { Icon } from 'astro-icon/components'
+import DefaultLayout from '../layouts/DefaultLayout.astro'
+---
+
+<Notification type="info">
+    <Icon name="ion:information-circle-outline" />
+    <p>
+      <strong>Info:</strong> This page utilizes Astro's MDX feature which let's you use components in a markdown file and
+      supports out-of-the-box syntax highlighting with Shiki.
+    </p>
+  </Notification>
+
+<DefaultLayout title="404">
+  <section class="my-12">
+    <div class="container">
+      <h1>Kontakt</h1>
+    </div>
+  </section>
+  <section class="my-12">
+    <div class="space-content container">
+      <p class="text-2xl">This page does not exist. Don't worry though, we got you.</p>
+      <a class="button" href="/">Let's get you home Astronout 🚀</a>
+    </div>
+  </section>
+</DefaultLayout>
