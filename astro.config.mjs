@@ -4,18 +4,16 @@ import tailwind from '@astrojs/tailwind';
 // import compress from 'astro-compress';
 import netlify from "@astrojs/netlify/functions";
 import NetlifyCMS from 'astro-netlify-cms';
-
 import playformCompress from "@playform/compress";
+
+import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
   compressHTML: true,
-  integrations: [
-    mdx(), 
-    tailwind({
-      applyBaseStyles: false
-    }), 
-    NetlifyCMS({
+  integrations: [mdx(), tailwind({
+    applyBaseStyles: false
+  }), NetlifyCMS({
     config: {
       // Use Netlify’s “Git Gateway” authentication and target our default branch
       backend: {
@@ -119,10 +117,10 @@ export default defineConfig({
           widget: 'markdown',
           label: 'Body Text'
         }]
-        }]
+      }]
     }
     // previewStyles: ['../../styles/blog.css'],
-  }), playformCompress()],
+  }), playformCompress(), icon()],
   output: "server",
   adapter: netlify()
 });
