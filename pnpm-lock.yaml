@@ -14,6 +14,9 @@ dependencies:
   astro-font:
     specifier: ^0.0.80
     version: 0.0.80
+  astro-navbar:
+    specifier: ^2.3.2
+    version: 2.3.2
   astro-netlify-cms:
     specifier: ^0.5.4
     version: 0.5.4(astro@3.6.5)(graphql@15.8.0)
@@ -2553,6 +2556,10 @@ packages:
       resolve-pkg: 2.0.0
       svgo: 2.8.0
     dev: true
+
+  /astro-navbar@2.3.2:
+    resolution: {integrity: sha512-cb+mYvtlCHMJbJpLsyE6lyNxLWHUqfKaOTBCSHe+xHDYGFquV8cubF/78TzHLlrNJZY3/ofCyPpr8KCLuR7ogg==}
+    dev: false
 
   /astro-netlify-cms@0.5.4(astro@3.6.5)(graphql@15.8.0):
     resolution: {integrity: sha512-yRHTX6ml0HtEKp6OLJiOjV4g5h8EacsQhA1IIn4cYj4pF5R/JOzFKSEqoo9IeewYhmlIXlnfbryk789gZbTqQw==}
