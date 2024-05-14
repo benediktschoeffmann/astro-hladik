@@ -8,6 +8,9 @@ dependencies:
   '@astrojs/netlify':
     specifier: ^3.1.1
     version: 3.1.1(@opentelemetry/api@1.8.0)(astro@3.6.5)
+  '@iconify-json/carbon':
+    specifier: ^1.1.33
+    version: 1.1.33
   '@iconify-json/mdi':
     specifier: ^1.1.66
     version: 1.1.66
@@ -1341,6 +1344,12 @@ packages:
 
   /@iarna/toml@2.2.5:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
+    dev: false
+
+  /@iconify-json/carbon@1.1.33:
+    resolution: {integrity: sha512-TsjyOqhqMhIEdUnteGPMoKvbY1SIsM8A4sASHIg+YiKoDGWqlwD/g4pLXoAoVj3NL3E1hRxoTIY1oqpndXIxvg==}
+    dependencies:
+      '@iconify/types': 2.0.0
     dev: false
 
   /@iconify-json/mdi@1.1.66:
