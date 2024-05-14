@@ -1,11 +1,29 @@
 ---
 import { Icon } from 'astro-icon/components'
+import { Image } from 'astro:assets';
 
-const { icon = 'mdi:rocket', title = 'Title' } = Astro.props
+interface Props {
+  icon: string;
+  title: string;
+  src: ImageMetadata;
+  alt: string;
+  description: string;
+}
+
+const { icon = 'mdi:rocket', title = 'Title', src, alt, description } = Astro.props
 ---
 
 <div class="feature flex flex-col gap-4">
   <Icon name={icon} />
+  <div class='rounded-lg border-3 border-black my-4 h-56'>
+    <Image 
+      src={src}
+      alt={alt}
+      width={800}
+      height={400}
+      class='rounded h-full w-full object-cover'
+    />
+  </div>
   <div class="content">
     <h3>{title}</h3>
     <p>
@@ -19,8 +37,15 @@ const { icon = 'mdi:rocket', title = 'Title' } = Astro.props
 
   .feature {
     position: relative;
-    width: calc(100% - 0.5rem);
-    padding: 2rem;
+    width: calc(70% - 0.5rem);
+    padding: 3rem;
+    margin: 1rem auto 2rem;
+    text-align: right;
+
+    > img {
+      width: 100%;
+    }
+
 
     > * {
       position: relative;
@@ -28,7 +53,7 @@ const { icon = 'mdi:rocket', title = 'Title' } = Astro.props
     }
 
     @include breakpoint(large) {
-      width: 100%;
+      width: 70%;
     }
 
     &::before,

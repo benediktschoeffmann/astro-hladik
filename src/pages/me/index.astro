@@ -8,7 +8,7 @@ const meArticles = await getCollection('articles', ({ data }) => {
     return (data.tags.includes('me')) && (data.publishDate < new Date());
 });
 
-console.log(meArticles);
+// console.log(meArticles);
 ---
 <DefaultLayout>
         {meArticles.map(
