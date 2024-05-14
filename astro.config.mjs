@@ -121,6 +121,7 @@ export default defineConfig({
     }
     // previewStyles: ['../../styles/blog.css'],
   }), playformCompress(), icon()],
+  // }), playformCompress()],
   output: "server",
   adapter: netlify()
 });
